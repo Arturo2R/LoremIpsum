@@ -1,0 +1,20 @@
+* {
+    padding : 0;
+    margin: 0;
+}
+
+:root{
+    --primario: #251057;
+    --secundario: blue; 
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: 4px;
+    border-color: var(--primario);
+}
