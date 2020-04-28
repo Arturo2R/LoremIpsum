@@ -17,4 +17,5 @@
     height: 100%;
     border-right: 4px;
     border-color: var(--primario);
+    background-color: greenyellow;
 }
