@@ -1,12 +1,50 @@
-* {
-    padding : 0;
-    margin: 0;
-}
-
 :root{
     --primario: #251057;
     --secundario: blue; 
 }
+
+@import url(https://fonts.googleapis.com/css?family=Domine:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+h1,
+h2,
+strong{
+    color: #333;
+}
+
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a{
+    color: var(--primario);
+}
+
 
 /* #navbar {
     position: fixed;
