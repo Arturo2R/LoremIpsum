@@ -8,7 +8,7 @@
     --secundario: blue; 
 }
 
-#navbar {
+/* #navbar {
     position: fixed;
     min-width: 290px;
     top: 0px;
@@ -18,4 +18,4 @@
     border-right: 4px;
     border-color: var(--primario);
     background-color: greenyellow;
-}
+}*/
