@@ -1,5 +1,5 @@
 :root{
-    --primario: #251057;
+    --primario: #52329c;
     --secundario: blue; 
 }
 
@@ -19,13 +19,83 @@ body{
 h1,
 h2,
 strong{
-    color: #333;
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif;
+    color: var(--primario);
 }
 
 h2{
     margin-top: 1em;
     padding-top: 1em;
 }
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: blueviolet;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+li :hover{
+  background-color: #7e74d37c
+}
+
+
 
 code,
 pre {
@@ -57,3 +127,13 @@ a{
     border-color: var(--primario);
     background-color: greenyellow;
 }*/
+
+#main-doc{
+  left: 50px;
+  top: 0.25rem;
+}
+
+#footer-d{
+    margin-top: 50px;
+    bottom: 0px;
+}
