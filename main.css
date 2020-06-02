@@ -115,7 +115,20 @@ a{
     color: var(--primario);
 }
 
-
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 10px;
+    background-image: url("https://picsum.photos/id/318/600/400");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+  }
+  #navbar{
+    width: 10%;
+  }
+}
+pic
 /* #navbar {
     position: fixed;
     min-width: 290px;
